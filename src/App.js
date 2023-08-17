@@ -43,22 +43,30 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundColor }}>
-      <div className="quote-box">
-        <h2 className="quote-text" style={{ color }}>
-          "{quote}"
-        </h2>
-        <h4 className="author" style={{ color }}>
-          -{author}
-        </h4>
-        <div className="buttons">
-          <button
-            className="btn new-quote-button"
-            onClick={handleClick}
-            style={{ backgroundColor }}
-          >
-            New quote
-          </button>
+      <div>
+        <div className="quote-box">
+          <h2 className="quote-text" style={{ color }}>
+            <i class="fa-solid fa-quote-left"></i> {quote}
+          </h2>
+          <h4 className="author" style={{ color }}>
+            - {author}
+          </h4>
+          <div className="buttons">
+            <button
+              className="btn new-quote-button"
+              onClick={handleClick}
+              style={{ backgroundColor }}
+            >
+              New quote
+            </button>
+          </div>
         </div>
+        <footer>
+          This project was coded by Laurel Rubel and is{" "}
+          <a href="https://github.com/LaurelFR/random-quotes">
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );

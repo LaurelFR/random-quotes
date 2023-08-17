@@ -1,9 +1,20 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 :root {
   --primary-color: #813bdd;
+}
+
+footer {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+footer a {
+  color: white;
 }
 
 .App {
@@ -17,26 +28,28 @@ body {
 .quote-box {
   max-width: 600px;
   padding: 50px 70px;
-  margin: 150px auto;
+  margin: 90px auto 15px;
   background: white;
   border-radius: 5px;
 }
 
 .quote-text {
   color: var(--primary-color);
+  font-size: 28px;
   transition: all 0.5s ease-in-out;
 }
 
 .author {
   color: var(--primary-color);
   text-align: right;
-  margin-top: 30px;
+  font-size: 18px;
+  margin-top: 20px;
   transition: all 0.5s ease-in-out;
 }
 
 .buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .new-quote-button {
@@ -49,14 +62,4 @@ body {
   opacity: 0.8;
   background: var(--primary-color);
   color: white;
-}
-
-.Quotes {
-  margin: 0 auto;
-  padding: 70px;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 4px;
-  max-width: 500px;
-  background: white;
 }
