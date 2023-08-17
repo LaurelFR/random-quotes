@@ -43,10 +43,10 @@ function App() {
 
   return (
     <div className="App" style={{ backgroundColor }}>
-      <div>
+      <div className="wrapper">
         <div className="quote-box">
           <h2 className="quote-text" style={{ color }}>
-            <i class="fa-solid fa-quote-left"></i> {quote}
+            <i className="fa-solid fa-quote-left"></i> {quote}
           </h2>
           <h4 className="author" style={{ color }}>
             - {author}
