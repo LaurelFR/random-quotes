@@ -63,3 +63,14 @@ footer {
 footer a {
   color: white;
 }
+
+@media (max-width: 576px) {
+  .quote-box {
+    max-width: 370px;
+    padding: 30px 40px;
+    margin: 90px auto 15px;
+  }
+  .new-quote-button {
+    margin-top: 20px;
+  }
+}
